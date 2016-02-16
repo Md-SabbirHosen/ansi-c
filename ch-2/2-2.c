@@ -1,13 +1,16 @@
 /*********************************************************
-*		PRNTING MAILING ADDRESS			 *
+*		RS TO PAISE				 *
 *	Author: Reez Patel				 *
-*	Source: Ex: 1.1 (P-20) = ANSI-C			 *
+*	Source: Ex: 2.2 (P-50) = ANSI-C			 *
 **********************************************************/
 #include <stdio.h>
 
 int main()
 {
-	printf("Reez Patel\n512,UB\nChennai-602302\n");
+	float amt;
+	printf("Enter the Amount in Rs: ");
+	scanf("%f",&amt);
+	printf("The Amt in Paise will be: %.0f\n",(amt*100));
 
 	return 0;
 }

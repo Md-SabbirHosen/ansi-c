@@ -1,13 +1,17 @@
 /*********************************************************
-*		PRNTING MAILING ADDRESS			 *
+*		TYPEDEF					 *
 *	Author: Reez Patel				 *
-*	Source: Ex: 1.1 (P-20) = ANSI-C			 *
+*	Source: Ex: 2.9 (P-51) = ANSI-C			 *
 **********************************************************/
 #include <stdio.h>
 
 int main()
 {
-	printf("Reez Patel\n512,UB\nChennai-602302\n");
+	typedef int num;
+	num n1,n2;
+	printf("Enter the 2 Numbers: ");
+	scanf("%d %d",&n1,&n2);
+	printf("Sum of two numbers is: %d \n",n1+n2);
 
 	return 0;
 }

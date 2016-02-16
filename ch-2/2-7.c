@@ -1,13 +1,18 @@
 /*********************************************************
-*		PRNTING MAILING ADDRESS			 *
+*		ARITMETIC CALCULATION			 *
 *	Author: Reez Patel				 *
-*	Source: Ex: 1.1 (P-20) = ANSI-C			 *
+*	Source: Ex: 2.7 (P-51) = ANSI-C			 *
 **********************************************************/
 #include <stdio.h>
 
 int main()
 {
-	printf("Reez Patel\n512,UB\nChennai-602302\n");
+	int x,y;
+	short int z;
+	x = 111111;
+	y = 123456;
+	z = x+y;
+	printf("If x = %d, y = %d and z = x+y then z= %hd \n",x,y,z);
 
 	return 0;
 }
